@@ -9,7 +9,6 @@ use Symfony\Component\DomCrawler\Crawler;
 
 class Api
 {
-
     public function getCardsInfos(): array
     {
 
@@ -39,6 +38,5 @@ class Api
     return $crawler;
 
     }
-
 }
 

@@ -8,6 +8,6 @@ class ApiTest extends TestCase
     public function testGetDatas()
     {
         $api = new Api();
-        $api->fetchData();
+        $api->getCardsInfos();
     }
 }
