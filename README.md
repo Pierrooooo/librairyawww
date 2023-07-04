@@ -6,9 +6,9 @@
 
 ## Local Environment
 
-```bash php vendor/bin/phpstan analyse src --level=max ```
-```bash php vendor/bin/php-cs-fixer fix src --rules=@PSR12 ```
-```bash php vendor/bin/phpunit tests ```
+```bashphp vendor/bin/phpstan analyse src --level=max ```
+```bashphp vendor/bin/php-cs-fixer fix src --rules=@PSR12 ```
+```bashphp vendor/bin/phpunit tests ```
 
 ## How it works
 
