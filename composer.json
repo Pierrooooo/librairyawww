@@ -1,0 +1,24 @@
+{
+    "name": "pierre_cours/librairyawww",
+    "autoload": {
+        "psr-4": {
+            "PierreCours\\Librairyawww\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Pierre Caillet",
+            "email": "pierrecaillet2811@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpstan/phpstan": "^1.10",
+        "friendsofphp/php-cs-fixer": "^3.20",
+        "phpunit/phpunit": "^10.2"
+    },
+    "require": {
+        "symfony/http-client": "^6.3",
+        "symfony/dom-crawler": "^6.3",
+        "symfony/css-selector": "^6.3"
+    }
+}
