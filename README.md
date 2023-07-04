@@ -1,14 +1,24 @@
 # librairyawww
 
 ## Instalation
-```bash composer require pierre_cours/librairyawww ```
-```bash composer i ```
+```bash 
+composer require pierre_cours/librairyawww 
+```
+```bash 
+composer i 
+```
 
 ## Local Environment
 
-```bash vendor/bin/phpstan analyse src --level=max ```
-```bash vendor/bin/php-cs-fixer fix src --rules=@PSR12 ```
-```bash vendor/bin/phpunit tests ```
+```bash 
+vendor/bin/phpstan analyse src --level=max 
+```
+```bash 
+vendor/bin/php-cs-fixer fix src --rules=@PSR12 
+```
+```bash 
+vendor/bin/phpunit tests 
+```
 
 ## How it works
 
